@@ -1,0 +1,35 @@
+
+@import"../styles/stylesGlobal.scss";
+
+  #form > p {
+    text-align: center;
+  }
+
+  
+  .start{
+      font-size: 40px;
+  }
+  
+  input[type="radio"] {
+    
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .qualification {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    cursor: pointer;
+    color: $color-start;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: $color-start;
+  }
