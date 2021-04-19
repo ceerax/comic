@@ -25,3 +25,57 @@
     color: $color-font;
     font-size: 5rem;
 }
+
+@media(max-width:1268px)
+{
+    @keyframes backBanner{
+        0%{
+            background-position: 0px 0px ;
+        }
+        100%{
+            background-position:0px -400px;
+        }
+        0%{
+            background-position: 0px 0px ;
+        }
+    }
+
+}
+
+@media(max-width:914px)
+{
+    @keyframes backBanner{
+        0%{
+            background-position: 0px 0px ;
+        }
+        100%{
+            background-position:0px -100px;
+        }
+        0%{
+            background-position: 0px 0px ;
+        }
+    }
+
+    .title > h1{    
+        text-align: center;
+    }
+
+}
+
+@media(max-width:536px)
+{
+    @keyframes backBanner{
+        0%{
+            background-position: 0px 0px ;
+        }
+        100%{
+            background-position:0px -10px;
+        }
+        0%{
+            background-position: 0px 0px ;
+        }
+    }
+
+    
+
+}
